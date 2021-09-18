@@ -5,5 +5,5 @@ For testing proposes
 ## Usage
 
 ```shell
-./lintertest.sh linter -c 2 ./...
+./lintertest.sh time mirror -c 2 ./... 2>&1 | tee reports.txt
 ```
